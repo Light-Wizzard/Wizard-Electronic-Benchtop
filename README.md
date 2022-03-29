@@ -49,9 +49,13 @@ so that is what this Project is all about.
 
 ## Index
 
+* [What is WETS](#What-is-WETS)
+* [Test Station](#Test-Station)
+* [Case](#Case)
+* [MPU and MCU](#MPU-and-MCU)
+* [Display](#Display)
 * [List of SBS Projects](#List-of-SBS-Projects)
-* [What is WETS](https://github.com/Light-Wizzard/Wizards-Electronic-Test-Station#What-is-WETS)
-* [Test Station](https://github.com/Light-Wizzard/Wizards-Electronic-Test-Station#Test-Station)
+* [](#)
 
 ## What is WETS
 
@@ -234,6 +238,8 @@ and once you understand what a Test Station is,
 you will never want anything else,
 which is the point of this Project.
 
+## Case
+
 The case must be able to hold all these Single Board Solutions (SBS),
 and the layout must have the Power Supply on the bottom, 
 and you must ensure it has RF shielding, so it does not interfere with other SBS,
@@ -284,7 +290,7 @@ for Industrial and Residential,
 there are many list like this one on Wikipedia https://en.wikipedia.org/wiki/Mains_electricity_by_country
 This Power Management Function,
 must be able to read all the Switch settings,
-for all the SPS,
+for all the SBS,
 and for Power, it must be able to have a screen that actually stores the correct Country,
 this screen can only be accessed after the Power comes up,
 and why the switches are the only way to actually set the voltage and frequency for each of the 3 phases.
@@ -305,6 +311,8 @@ and that needs to be requirement,
 such that the design is not set around a PI,
 but still needs to be a PI alternative,
 as discussed above, you want as few changes in code as possible.
+
+## MPU and MCU
 
 The reason I did not want to use the STM32 MPU instead of a PI,
 is due to the fact I have no experience in using it,
@@ -355,6 +363,8 @@ and what I want,
 but I will design this system to use an Optional WiFi or LoRa,
 or even both at the same time, 
 this allows different users to use different access methods sine LoRa requires a LoRa Receiver.
+
+## Display
 
 The display must be able to accommodate all the SBS, 
 as well as all equipment that has an Interface that you can monitor,
