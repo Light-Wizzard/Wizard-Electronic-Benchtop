@@ -1,6 +1,50 @@
-# Wizard Electronic Benchtop
+# Wizards Electronic Test Station (WETS)
 
-From a beginner to a professional Electronics Technician or Engineer, you will need Electronic Test Equipment, and we want it all in one equpiment case, 
+WETS is in a single case that has many useful test equipment you can access,
+using a Touch Screen, or Remotely using an Android Application, 
+as such, it is an Electronic Test Station Equipment case.
+
+WETS is a confusing acronym to use at first, but it also makes since if you want to jump in and get you feet wet in Electrons,
+this one single case Test Station,
+is designed to replace all the tools you normally use,
+to having them all in one case.
+
+This project currently does not have anything real to show,
+it is now a startup page that explains the project that I am working,
+it will have source code,
+as well as links to all the Schematics,
+blue prints, documents, images, videos and other electronic data,
+as well as links to other projects it might work with.
+
+The reason it is a Wizard, is because of the way the User Interface works,
+it has Wizard screens that most people known about,
+Programmers understand the meaning,
+you have a list of things you can do,
+you pick one,
+for example,
+you will have an option to pick a specific test equipment,
+you will have a list of only Test Equipment,
+and not other equipment that is not part of an Single Board Solution or SBS,
+for example,
+Oscilloscope,
+the first box will be if you want to turn it on or maybe off if it is on,
+the next Wizard screen will ask you how you want it set up,
+and go through a series of settings,
+all the input channels are off by default,
+so you have turn them on manually,
+unless you are running a test program,
+that can turn equipment on and off,
+as well as set it up for the task at hand,
+and what Wizards help you to accomplish with as little key strokes as possible,
+allowing the user to skip the Wizard at any time.
+The Wizard is a pop up screen,
+so it is a blocking screen,
+and therefore,
+you must finish with the Wizard to get back to screens under it.
+
+From a beginner to a professional Electronics Technician or Engineer, 
+you will need Electronic Test Equipment, 
+and we want it all in one equipment case, 
 so that is what this Project is all about.
 
 This project is about one Case for all the Test Equipment to fit into
@@ -18,11 +62,167 @@ The following is a list of all the Functions this case will handle:
 * Frequency Counter
 * LCR Meter
 * Component Tester for Semiconductors
-* Vector Signal Analyzer
-* Time Domain Reflectometer
+* Vector Signal Analyzer (VSA)
+* Time Domain Reflectometer (TDR)
 * Power Load Analyzer
 
-This SBS list is not set in stone.
+Each item in this List can be any equipment you currently own,
+and are willing to interface with, 
+this means if you have for example an Oscilloscope,
+you must wire up and harness to it,
+this means every knob or control,
+and power input, 
+must have wires that can connect to the WETS system,
+were WETS means getting your feet wet,
+you must understand the risk of standing in water while using this equipment to stay safe,
+as such, you can use any equipment that you can interface with.
+This means that if you design the case for 16 channel inputs,
+and you Oscilloscope only has 2, 4 or some other number,
+when you set the active SBS to Oscilloscope, 
+you have lights indicating which inputs are available, 
+as well as which inputs are turned on.
+The concept is to use Open Source Software and Hardware to fill the holes in the case with,
+and every SBS is a project.
+
+This SBS list is not set in stone,
+and my concept is that you can take any equipment you currently have,
+and interface it with this case,
+as such, this project is more about the case,
+and what projects you can use to populate it,
+and you should be able to use any equipment you currently have,
+and is the goal of this case,
+how do you do this and make it easy to remove each SBS,
+which any equipment you have that is in a case,
+is considered a Single Board Solution,
+this term actually means that it is contained in one removable box,
+this infers that the Board itself is a box that the equipment is placed in,
+this is for easy of removal, and sets the size for the equipment in the case,
+proving mounting point.
+
+The SBS cases have access to all the features you have control or monitoring over,
+this includes power on/off, and all adjuster knobs,
+as such, the case must have all the knobs,
+so of them are push button variable knobs,
+so might have more than one variable knob on its shaft,
+for course and fine control,
+you have push buttons for up, down, left, and right,
+and function selection switch's,
+and this means you to have an Active Screen,
+for example a DMM, 
+when it is active, all the controls that are hardwired to the interface,
+most have a remote function to change that as well,
+as such, the program keeps track of the position of all switch's, knobs, and controls,
+for every SBS as well as other equipment in the case,
+and it must have a way to indicate what controls are possible,
+so lighted controls are a must, 
+at least have an LED next to it,
+indicating you can use this control for that SBS or Equipment.
+
+I call other Equipment, as that of the Case itself,
+for example its Power Management,
+that also includes its UPS,
+and you want to monitor that at all times,
+and there will be other things that the Case has,
+this might be options that are unique to this case,
+like features you need for Automated testing of Equipment.
+
+A Test Station means it has Test Equipment you have Access to,
+but the Unit under test, can have Automated Testing,
+this means you have all your probes setup,
+this means setting up input power,
+so it uses the Power Supply,
+and you have test points, and each might need a different SBS,
+yet you only want to use one Probe, so you have a Probe Section,
+this is a patch panel of cables that can be electronically routed to the input of output of any SBS,
+this allow a program to power up and down a test unit,
+and using attached probes, 
+it can route the signal to the right location,
+and test the results for a pass or fail,
+thus a technician runs the Test Program,
+the Wizard tell them what probe goes where,
+and what type of probe to use,
+power, signal, or level probes are standard,
+level probes are coaxial probes that have a known load value,
+you can also calibrate your probes,
+this is required to use the Oscilloscope SBS,
+and a good practice to ensure you let the system know what impedance and other characteristics the cable has,
+and why a Time Domain Reflectometer (TDR) is part of the list of SBS,
+you can measure the length of some cables,
+and find out many things about that cable with them,
+so Probe calibration Wizards will walk you through connecting,
+testing, calibrating, and connecting it to the unit under test.
+
+A Test Station is not a collection of test equipment, 
+it is a collection of test equipment you can access via an IO interface,
+of connecting wires,
+and you can apply or remove power,
+and test the input and output of a unit,
+as well as test all the test points on the board of the unit under test,
+using a series of Wizard Screens,
+that make sure you have the right probe hooked up for the current test,
+and then display a pass/failure message,
+as well as troubleshoot all failures.
+
+An Automatic Test Station will still require user intervention,
+the Automatic part is done in the Probe Panel,
+it automatically routes the probe to the unit under test,
+to the correct test equipment and sets it up for the current test,
+and then deciding if that test passes or fails,
+as such, Automatic means the user is told what probe goes where and when,
+and when you can disconnect each probe, 
+so you do not have a mess of unused probes,
+and why the W in WETS is Wizard,
+because a Wizard Screen will explain what probe goes where, 
+and then automatically sets up that test.
+
+Why you want a Test Station and not just a collection of Test Equipment,
+is simple, 
+if you have a piece of equipment that you work on,
+and have schematics for it, 
+you can write a C++ or a QT JavaScript program,
+the two supported Qt options,
+that are used to run a series of tests,
+depending on the Unit Under Test (UUT), 
+you have to write Wizard Screens that ask the Technician questions,
+or instructs them to use test probes, and show you what point you are probing,
+as well as why,
+and then test the results for what you expect to find at that test point.
+
+An Automatic Test Station Program requires the use of a known good UUT,
+that means you have to have a working unit like the one you need to test,
+and once you have a known good unit, 
+you write a test, you can find all the test points on the board,
+and known what you are looking for,
+and what equipment you need,
+you can write a procedure to test that point,
+and know what to expect,
+so you can write this test program,
+and name it, save it, so you can import it,
+and run it,
+and you can add more test points as needed,
+so the program does not need to be all encompassing,
+but if you want to know if you have good board,
+you will need a good board to write each test point procedure.
+
+The Application allows you to test just a one test point,
+and you can also skip tests, 
+and you might want to write a test that includes a lot of component probing,
+and some tests will require a lot of probing,
+as well as it might need some signals from the Waveform Generator or Power Supply,
+so you can write very detailed and exhaustive tests,
+meaning tests that include everything you can thing of.
+
+You have edit mode and run mode, edit mode allows you to alter the test procedure,
+this allows you to make that test better,
+by adding more details to the test,
+or better instructions, or to alter the value of what is a pass or fail value.
+
+A Test Station is a Machine that can be used to make an collection of equipment more useful for technicians,
+than any collection of machines can possibly have any usefulness,
+when it comes to repairing equipment,
+and once you understand what a Test Station is,
+you will never want anything else,
+which is the point of this Project.
 
 The case must be able to hold all these Single Board Solutions (SBS),
 and the layout must have the Power Supply on the bottom, 
@@ -105,9 +305,9 @@ currently the PI has 8 GB or more,
 the STM32MP15
 https://wiki.st.com/stm32mpu/wiki/STM32MP15_microprocessor,
 has less than a MB,
-System RAM is 256KB,
-Retention Ram is 64KB,
-Boot Ram is 128KB,
+System RAM is 256 KB,
+Retention Ram is 64 KB,
+Boot Ram is 128 KB,
 as such, you would need to have optimized code,
 and why I did not include it as an option,
 but I do plan one using STM32 MCU,
