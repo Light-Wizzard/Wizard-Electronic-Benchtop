@@ -49,7 +49,7 @@ so that is what this Project is all about.
 
 ## Index
 
-* [List of SBS Projects](https://github.com/Light-Wizzard/Wizards-Electronic-Test-Station#List_of_SBS_Projects)
+* [List of SBS Projects](#List_of_SBS_Projects)
 * [What is WETS](https://github.com/Light-Wizzard/Wizards-Electronic-Test-Station#What_is_WETS)
 * [Test Station](https://github.com/Light-Wizzard/Wizards-Electronic-Test-Station#Test_Station)
 
