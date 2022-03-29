@@ -47,6 +47,14 @@ you will need Electronic Test Equipment,
 and we want it all in one equipment case, 
 so that is what this Project is all about.
 
+## Index
+
+* [List of SBS Projects](https://github.com/Light-Wizzard/Wizards-Electronic-Test-Station#List_of_SBS_Projects)
+* [What is WETS](https://github.com/Light-Wizzard/Wizards-Electronic-Test-Station#What_is_WETS)
+* [Test Station](https://github.com/Light-Wizzard/Wizards-Electronic-Test-Station#Test_Station)
+
+## What is WETS
+
 This project is about one Case for all the Test Equipment to fit into
 
 All equipment functions must be Single Board Solutions (SBS) that can be upgraded.
@@ -125,6 +133,8 @@ and you want to monitor that at all times,
 and there will be other things that the Case has,
 this might be options that are unique to this case,
 like features you need for Automated testing of Equipment.
+
+## Test Station
 
 A Test Station means it has Test Equipment you have Access to,
 but the Unit under test, can have Automated Testing,
@@ -376,7 +386,7 @@ I need to make a list of Projects this Project can support,
 and that means it would have to be tested with it,
 as such, there will be a category for tested.
 
-## List_of_SBS_Projects
+## List of SBS Projects
 
 ### Oscilloscope: Mixed Signal
 
