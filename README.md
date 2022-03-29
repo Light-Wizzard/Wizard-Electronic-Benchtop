@@ -55,7 +55,7 @@ so that is what this Project is all about.
 * [MPU and MCU](#MPU-and-MCU)
 * [Display](#Display)
 * [List of SBS Projects](#List-of-SBS-Projects)
-* [](#)
+* [Help](#Help)
 
 ## What is WETS
 
@@ -421,5 +421,24 @@ as such, there will be a category for tested.
 ### Time Domain Reflectometer
 
 ### Power Load Analyzer
+
+## Help
+
+If you have any interest in this project, 
+just make an [Issue](https://github.com/Light-Wizzard/Wizards-Electronic-Test-Station/issues),
+in the subject just give as good of a short description as possible,
+and I will try my best to respond to your questions.
+
+If you have SBS links please add SBS link: and the name of the Project,
+then add the link to Issue itself,
+explaining a little about the SBS,
+and I will look at the project,
+and add it if I think it might work,
+but will give you a response either way,
+and give you a chance to respond if I have some reason not to include it,
+and I must have some justification,
+for example, we have an SBS that is better for this Test Station.
+
+I am working on a [Wiki](https://github.com/Light-Wizzard/Wizards-Electronic-Test-Station/wiki).
 
 #### End of Documents
