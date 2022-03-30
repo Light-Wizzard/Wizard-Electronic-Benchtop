@@ -412,6 +412,7 @@ as such, there will be a category for tested.
 * [DMM](#DMM)
 * [Power Load Analyzer](#Power-Load-Analyzer)
 * [Power Supply](#Power-Supply)
+* [Other Equipment](#Other-Equipment)
 
 ### Multiple Function
 
@@ -557,11 +558,30 @@ Spark Fun
 
 ### Power Load Analyzer
 
-Need to find a better source
+AC and DC load with Analyzer
+
+Need to find a source
 
 ### Power Supply
 
-Need to find a better source
+DC 
+Variable 0-120 Volts
+Variable 3 amp minimum at 120 volts
+
+AC
+Variable 0-120 Volts with variable amperage
+
+Variable 0 to a vary high voltage and amperage
+
+Need to find a source
+
+### Other Equipment
+
+* LoRa
+* WiFi
+* Resistor Box
+* Capacitor Box
+* Inductor Box
 
 ## Help
 
