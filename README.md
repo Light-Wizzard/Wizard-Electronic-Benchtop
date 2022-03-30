@@ -451,9 +451,13 @@ SmartScope
 ### Spectrum Analyzer
 
 * [http://www.signalhound.eu](http://www.signalhound.eu)
+
 21 Band Audio
+
 * [21 Bands Spectrum Analyzer](https://oshwlab.com/trayko67/21-bands-spectrum-analyzer-buttoncontrol-ircontrol-v-1-0)
+
 13 Band Audio
+
 * [13 Bands Spectrum Analyzer](https://projects.digilentinc.com/mark-donners/giant-spectrum-analyzer-76b302)
 
 ### Protocol Analyzer
@@ -464,17 +468,18 @@ This might be a function of an Oscilloscope
 * [http://dangerousprototypes.com/blog/2010/02/25/prototype-open-logic-sniffer-logic-analyzer-2/](http://dangerousprototypes.com/blog/2010/02/25/prototype-open-logic-sniffer-logic-analyzer-2/)
 
 Spark Fun
+
 * [Bus Pirate](https://www.sparkfun.com/products/12942)
-* []()
-* []()
 
 ### Vector Network Analyzer
 
 LibreVNA
+
 * [https://github.com/jankae/LibreVNA](https://github.com/jankae/LibreVNA)
 * [https://hackaday.com/2021/04/22/librevna-is-a-quality-open-hardware-vector-network-analyser/](https://hackaday.com/2021/04/22/librevna-is-a-quality-open-hardware-vector-network-analyser/)
 
 jankae / VNA 
+
 * [https://github.com/jankae/VNA](https://github.com/jankae/VNA)
 
 ### Logic Analyzer
@@ -516,6 +521,7 @@ Frequency Counter Board
 * [Low Cost High Accuracy STM32 FFT LCR Meter](https://adilmalikn.wordpress.com/2019/07/07/low-cost-high-accuracy-stm32-fft-lcr-meter/)
 
 Spark Fun
+
 * [Capacitance Meter DIY Kit $14](https://www.sparkfun.com/products/9485)
 
 ### Component Tester for Semiconductors
