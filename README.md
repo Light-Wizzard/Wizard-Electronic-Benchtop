@@ -398,29 +398,164 @@ as such, there will be a category for tested.
 
 ## List of SBS Projects
 
-### Oscilloscope: Mixed Signal
+* [Oscilloscope](#Oscilloscope)
+* [Spectrum Analyzer](#Spectrum-Analyzer)
+* [Protocol Analyzer](#Protocol-Analyzer)
+* [Vector Network Analyzer](#Vector-Network-Analyzer)
+* [Logic Analyzer](#Logic-Analyzer)
+* [Waveform Generator](#Waveform-Generator)
+* [Frequency Counter](#Frequency-Counter)
+* [LCR Meter](#LCR-Meter)
+* [Component Tester for Semiconductors](#Component-Tester-for-Semiconductors)
+* [Vector Signal Analyzer](#Vector-Signal-Analyzer)
+* [Time Domain Reflectometer](#Time-Domain-Reflectometer)
+* [DMM](#DMM)
+* [Power Load Analyzer](#Power-Load-Analyzer)
+* [Power Supply](#Power-Supply)
+
+### Multiple Function
+
+Spark Fun
+
+* [Crowd Supply ScopeFun](https://www.sparkfun.com/products/16381)
+
+ScopeFun: This seems to do a lot more than just an Oscilloscope
+
+* [https://www.ScopeFun.com/](https://www.scopefun.com/)
+* [https://www.opensourceimaging.org/project/scopefun/](https://www.opensourceimaging.org/project/scopefun/)
+* [https://hackaday.com/2016/10/06/open-design-oscilloscope-could-be-almost-free/](https://hackaday.com/2016/10/06/open-design-oscilloscope-could-be-almost-free/)
+* [Digilent Analog Discovery 2 $427](https://www.sparkfun.com/products/13929)
+* [HAMlab - 160-6 10W $1,400](https://www.sparkfun.com/products/15001)
+
+### Oscilloscope
+
+Thunder Scope
+
+* [https://github.com/EEVengers/ThunderScope](https://github.com/EEVengers/ThunderScope)
+* [Crowd Supply](https://www.crowdsupply.com/eevengers/thunderscope)
+
+Open Circuits
+
+* [https://OpenCircuits.com/index.php?title=Oscilloscope](https://opencircuits.com/index.php?title=Oscilloscope)
+
+Open Source Digital Storage Oscilloscope, 4 Ch $99
+
+* [https://www.tindie.com/products/earth_people_technology/open-source-digital-storage-oscilloscope-4-ch/](https://www.tindie.com/products/earth_people_technology/open-source-digital-storage-oscilloscope-4-ch/)
+
+SmartScope
+
+* [https://www.lab-nation.com/develop](https://www.lab-nation.com/develop)
+* [https://audioxpress.com/news/SmartScope-Get-you-own-open-source-oscilloscope-](https://audioxpress.com/news/SmartScope-Get-you-own-open-source-oscilloscope-)
+* [https://github.com/labnation](https://github.com/labnation)
 
 ### Spectrum Analyzer
 
+* [http://www.signalhound.eu](http://www.signalhound.eu)
+21 Band Audio
+* [21 Bands Spectrum Analyzer](https://oshwlab.com/trayko67/21-bands-spectrum-analyzer-buttoncontrol-ircontrol-v-1-0)
+13 Band Audio
+* [13 Bands Spectrum Analyzer](https://projects.digilentinc.com/mark-donners/giant-spectrum-analyzer-76b302)
+
 ### Protocol Analyzer
+
+This might be a function of an Oscilloscope
+
+* [TOTAL PHASE BEAGLE I2C/SPI PROTOCOL ANALYZER](https://www.microchip.com/en-us/development-tool/TTP100003)
+* [http://dangerousprototypes.com/blog/2010/02/25/prototype-open-logic-sniffer-logic-analyzer-2/](http://dangerousprototypes.com/blog/2010/02/25/prototype-open-logic-sniffer-logic-analyzer-2/)
+
+Spark Fun
+* [Bus Pirate](https://www.sparkfun.com/products/12942)
+* []()
+* []()
+
+### Vector Network Analyzer
+
+LibreVNA
+* [https://github.com/jankae/LibreVNA](https://github.com/jankae/LibreVNA)
+* [https://hackaday.com/2021/04/22/librevna-is-a-quality-open-hardware-vector-network-analyser/](https://hackaday.com/2021/04/22/librevna-is-a-quality-open-hardware-vector-network-analyser/)
+
+jankae / VNA 
+* [https://github.com/jankae/VNA](https://github.com/jankae/VNA)
 
 ### Logic Analyzer
 
-### Power Supply
+* [https://www.sump.org/projects/analyzer/](https://www.sump.org/projects/analyzer/)
+* [https://hackaday.com/2010/07/01/open-source-logic-analyzer-software/](https://hackaday.com/2010/07/01/open-source-logic-analyzer-software/)
+
+Spark Fun
+
+* [8-Channel](https://www.sparkfun.com/products/18627)
 
 ### Waveform Generator
 
+Spark Fun
+
+* [SparkFun MiniGen - Pro Mini Signal Generator Shield $33](https://www.sparkfun.com/products/11420)
+* [Frequency Generator Kit - FG085 $65](https://www.sparkfun.com/products/11394)
+* [SparkFun Clock Generator Breakout - 5P49V60 (Qwiic) $30](https://www.sparkfun.com/products/15734)
+* [MIKROE Waveform Click $47](https://www.sparkfun.com/products/18969)
+* [MIKROE Waveform 3 Click $25](https://www.sparkfun.com/products/19285)
+* [MIKROE Waveform 2 Click $45](https://www.sparkfun.com/products/19340)
+
 ### Frequency Counter
+
+* [An Open Source Frequency Meter and clock generator](https://www.open-electronics.org/an-open-source-frequency-meter-and-clock-generator/)
+* [FrequencyCounter](https://github.com/LUMERIIX/FrequencyCounter)
+* [Arduino compatible frequency counter](https://pandauino.com/en/arduino-compatible-frequency-counter/)
+* [Low-cost open-source high-frequency portable pulse counter for Raspberry Pi and its application to Xray transmission rate measurement](https://www.arxiv-vanity.com/papers/1911.08168/)
+* [nanocounter](https://andybrown.me.uk/2016/02/21/nanocounter/)
+
+Frequency Counter Board
+
+* [PCB Way](https://www.pcbway.com/project/shareproject/Arduino_RF_Frequency_Counter_with_Prescaler.html)
+* [GitHub](https://github.com/imsaiguy/Frequency-Counter-Board)
 
 ### LCR Meter
 
+* [Building an LCR Meter](https://community.element14.com/technologies/open-source-hardware/b/blog/posts/building-an-lcr-meter)
+* [Low Cost High Accuracy STM32 FFT LCR Meter](https://adilmalikn.wordpress.com/2019/07/07/low-cost-high-accuracy-stm32-fft-lcr-meter/)
+
+Spark Fun
+* [Capacitance Meter DIY Kit $14](https://www.sparkfun.com/products/9485)
+
 ### Component Tester for Semiconductors
+
+* [Component Tester - Test Almost Anything](https://www.instructables.com/Component-Tester-Test-Almost-Anything-/)
+* [The Arduino UNO Transistor Tester](https://create.arduino.cc/projecthub/plouc68000/ardutester-v1-13-the-arduino-uno-transistor-tester-dbafb4)
+* [Amazon Kit: D-FLIFE Multifunction Meter DIY kit, Mega 328 Graphic Transistor Tester, NPN PNP Diodes Triode Capacitor ESR SCR MOSFET Resistor Inductance LCD Display Checker with case $15](https://www.amazon.com/dp/B0952SRQP7)
+* [Amazon Kit: LCR-T4 Mega328 Digital Transistor Tester Resistance Capacitance Diode Triode Capacitance Resistance ESR Meter MOS PNP NPN LCR with Case $19](https://www.amazon.com/Mega328-Digital-Transistor-Resistance-Capacitance/dp/B07WT9VVZB)
+* [Amazon Kit: Treedix GM328 Transistor Tester Frequency Tester PWM Square Wave LCR Meter Voltmeter Full Color Screen Graphics DIY Kit with Acrylic Case  $22](https://www.amazon.com/Treedix-Transistor-Frequency-Voltmeter-Graphics/dp/B08B817KFL/)
+* [Amazon Kit: HiLetgo LCR-T4 Multifunctional Resistor Capacitor Diode SCR Inductor Triode MOSFET Tube Meter Tester component tester kit 9V with 12864 Green Backlight LCD Display  $15](https://www.amazon.com/HiLetgo-Multifunctional-Capacitor-component-Backlight/dp/B01MYU0QI3/)
 
 ### Vector Signal Analyzer
 
+This seems to be included in other functions
+
 ### Time Domain Reflectometer
 
+* [Simple circuit to turn your oscilloscope into a TDR](http://dangerousprototypes.com/blog/2013/03/12/simple-circuit-to-turn-your-oscilloscope-into-a-tdr/)
+
+### DMM
+
+EEvBlog
+
+* [EEVblog BM235 Multimeter](https://www.eevblog.com/product/bm235/)
+* [121GW Multimeter](https://www.eevblog.com/product/121gw/)
+* [EEVblog BM786 Multimeter](https://www.eevblog.com/product/eevblog-bm786-multimeter/)
+
+Spark Fun
+
+* [MIKROE Multimeter Click $40](https://www.sparkfun.com/products/18850)
+* [Circuit Setup Energy Meter Board $38](https://www.sparkfun.com/products/16846)
+* [SparkX Power Meter - ACS37800 (Qwiic) $25](https://www.sparkfun.com/products/17873)
+
 ### Power Load Analyzer
+
+Need to find a better source
+
+### Power Supply
+
+Need to find a better source
 
 ## Help
 
