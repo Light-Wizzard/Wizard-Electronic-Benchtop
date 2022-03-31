@@ -795,9 +795,11 @@ The third letter is what type of energy is on this cable or trace,
 The forth letter is what polarity it is,
 we have 3 options:
 
-* + = Positive
-* - = Negative
-* A = Alternating
+```
++ = Positive
+- = Negative
+A = Alternating
+```
 
 The fifth letter is the voltage level, 
 meaning the Volts, level means it can + or -,
