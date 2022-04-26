@@ -89,6 +89,7 @@ The following is a list of all the Functions this case will handle:
 * Time Domain Reflectometer (TDR)
 * Power Load Analyzer
 * Digital Multi Meter (DMM)
+* Cable Tester
 
 Each item in this list can be any equipment you currently own,
 and are willing to interface with, 
